@@ -6,6 +6,9 @@ really bad for a while. If I had to guess, it'll probably get a ton of plugins
 before I decide I need to go all minimalistic and stuff, then switch to a
 10-line init.el. Or maybe I won't. Who knows.
 
+All this is worsened by the fact that these are someone else's configuration
+files. I'm probably going to break everything at least once before I'm happy.
+
 Original Readme follows.
 
 dotemacs
