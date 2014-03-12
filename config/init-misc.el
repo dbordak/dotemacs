@@ -41,8 +41,8 @@
 (require 'editorconfig)
 
 
-(require-package 'etags-select)
-(setq etags-select-go-if-unambiguous t)
+;;(require-package 'etags-select)
+;;(setq etags-select-go-if-unambiguous t)
 
 
 (require-package 'windsize)
