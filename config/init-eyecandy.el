@@ -48,11 +48,13 @@
 (diminish 'color-identifiers-mode)
 
 
+(require-package 'linum-relative)
 (require 'linum-relative)
 ;;(setq-default linum-format "%4d ")
 (setq-default linum-relative-current-symbol "")
 
 
+(require-package 'solarized-theme)
 (setq solarized-distinct-fringe-background t)
 (load-theme 'solarized-dark t)
 
