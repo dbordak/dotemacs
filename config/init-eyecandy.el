@@ -48,8 +48,9 @@
 (diminish 'color-identifiers-mode)
 
 
-(require 'linum)
-(setq-default linum-format "%4d ")
+(require 'linum-relative)
+;;(setq-default linum-format "%4d ")
+(setq-default linum-relative-current-symbol "")
 
 
 (add-hook 'find-file-hook (lambda ()
