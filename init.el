@@ -36,7 +36,7 @@
                               init-git
                               init-flycheck
 
-                              init-vim
+                              ;; init-vim
                               init-stylus
                               init-js
                               init-web
