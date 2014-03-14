@@ -53,6 +53,10 @@
 (setq-default linum-relative-current-symbol "")
 
 
+(setq solarized-distinct-fringe-background t)
+(load-theme 'solarized-dark t)
+
+
 (add-hook 'find-file-hook (lambda ()
                             (hl-line-mode)
                             (linum-mode)))
