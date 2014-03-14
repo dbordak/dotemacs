@@ -37,7 +37,7 @@
                               init-flycheck
 
                               ;; init-vim
-                              init-stylus
+                              ;; init-stylus
                               init-js
                               init-web
                               init-lisp
