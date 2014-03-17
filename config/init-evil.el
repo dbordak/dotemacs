@@ -4,12 +4,12 @@
 (setq evil-search-module 'evil-search)
 (setq evil-magic 'very-magic)
 
-;;(setq evil-emacs-state-cursor '("red" box))
+(setq evil-emacs-state-cursor '("#dc322f" box))
 (setq evil-normal-state-cursor '("#586e75" box))
 (setq evil-visual-state-cursor '("#b58900" box))
 (setq evil-insert-state-cursor '("#859900" bar))
 (setq evil-replace-state-cursor '("#dc322f" box))
-;;(setq evil-operator-state-cursor '("red" hollow))
+(setq evil-operator-state-cursor '("#dc322f" hollow))
 
 (setq evilnc-hotkey-comment-operator "gc")
 
