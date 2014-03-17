@@ -8,7 +8,7 @@
 (setq evil-normal-state-cursor '("#586e75" box))
 (setq evil-visual-state-cursor '("#b58900" box))
 (setq evil-insert-state-cursor '("#859900" bar))
-(setq evil-replace-state-cursor '("#dc322f" bar))
+(setq evil-replace-state-cursor '("#dc322f" box))
 ;;(setq evil-operator-state-cursor '("red" hollow))
 
 (setq evilnc-hotkey-comment-operator "gc")
