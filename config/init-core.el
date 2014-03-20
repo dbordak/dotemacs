@@ -101,8 +101,8 @@
 (delete-selection-mode 1)
 
 
-(setq-default
- indent-tabs-mode nil)
+;(setq-default
+; indent-tabs-mode nil)
 
 
 (defun my-find-file-check-large-file ()
