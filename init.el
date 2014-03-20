@@ -36,6 +36,7 @@
 
     init-git
     init-flycheck
+    init-whitespace
 
     ;; init-vim
     ;; init-stylus
