@@ -254,10 +254,8 @@
 (global-set-key (kbd "C-r") 'isearch-backward-regexp)
 (global-set-key (kbd "C-M-r") 'isearch-backward)
 
-
 ;; have no use for these default bindings
 (global-unset-key (kbd "C-x m"))
-
 
 ;; replace with [r]eally [q]uit
 (global-set-key (kbd "C-x r q") 'save-buffers-kill-terminal)
@@ -267,5 +265,8 @@
     (message "Thou shall not quit!"))
   (defadvice evil-quit-all (around advice-for-evil-quit-all activate)
     (message "Thou shall not quit!")))
+
+;; Refresh file
+(global-set-key (kbd "<f5>") 'revert-buffer)
 
 (provide 'init-bindings)
