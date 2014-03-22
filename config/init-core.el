@@ -96,7 +96,7 @@
 (which-function-mode t)
 (blink-cursor-mode -1)
 (global-auto-revert-mode 1)
-(electric-indent-mode t)
+;(electric-indent-mode t)
 (transient-mark-mode 1)
 (delete-selection-mode 1)
 
