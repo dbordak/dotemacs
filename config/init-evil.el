@@ -51,9 +51,6 @@
 (defun my-send-string-to-terminal (string)
   (unless (display-graphic-p) (send-string-to-terminal string)))
 
-(add-hook 'after-make-frame-functions (lambda (frame) (my-evil-terminal-cursor-change)))
-(my-evil-terminal-cursor-change)
-
 (defun my-evil-modeline-change (default-color)
   "changes the modeline color when the evil mode changes"
   (let ((color (cond ((evil-emacs-state-p) '("#330000" . "#839496"))
