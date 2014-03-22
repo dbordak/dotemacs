@@ -42,7 +42,7 @@
 
 
 ;; fringe
-(fringe-mode 16)
+(fringe-mode 12)
 
 
 ;; ediff
