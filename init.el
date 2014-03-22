@@ -22,6 +22,7 @@
   '(init-eshell
     init-org
     init-eyecandy
+    init-scratch
 
     init-smartparens
     ;; init-autopair
