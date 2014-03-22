@@ -2,6 +2,6 @@
 (diminish 'whitespace-mode)
 (diminish 'global-whitespace-mode)
 
-(setq whitespace-style '(trailing tabs tab-mark))
+(setq whitespace-style '(face trailing space tab-mark lines-tail empty space-before-tab))
 
 (provide 'init-whitespace)
