@@ -26,7 +26,7 @@
     init-smartparens
     ;; init-autopair
 
-    init-yasnippet
+    ;; init-yasnippet
     init-auto-complete
     ;; init-company
 
