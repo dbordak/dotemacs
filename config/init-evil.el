@@ -87,4 +87,6 @@
 (defadvice evil-jump-backward (after advice-for-evil-jump-backward activate)
   (evil-scroll-line-to-center (line-number-at-pos)))
 
+(global-set-key (kbd "RET") 'evil-ret-and-indent)
+
 (provide 'init-evil)
