@@ -9,7 +9,7 @@ before I decide I need to go all minimalistic and stuff, then switch to a
 All this is worsened by the fact that these are someone else's configuration
 files. I'm probably going to break everything at least once before I'm happy.
 
-Original Readme follows.
+Original Readme follows. Except for the URL change down there.
 
 dotemacs
 ========
@@ -19,7 +19,7 @@ this is a emacs configuration targeted for vim users.
 install
 =======
 
-`git clone https://github.com/bling/dotemacs.git ~/.emacs.d`
+`git clone https://github.com/dbordak/dotemacs.git ~/.emacs.d`
 
 disclaimer
 ==========
