@@ -269,4 +269,6 @@
 ;; Refresh file
 (global-set-key (kbd "<f5>") 'revert-buffer)
 
+(global-set-key [backspace] 'backward-delete-char)
+
 (provide 'init-bindings)
